@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <title></title>
+    <script src="jasmine-standalone-1.3.1/lib/jasmine-1.3.1/jasmine.js"></script>
+    <script src="jasmine-standalone-1.3.1/lib/jasmine-1.3.1/jasmine-html.js"></script>
+    <link href="jasmine-standalone-1.3.1/lib/jasmine-1.3.1/jasmine.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sinon.js/1.15.4/sinon.min.js"></script>
+</head>
+
+<body>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.5/angular-mocks.js"></script>
+    <script src="../app/main.js"></script>
+
+    <!--controllers-->
+    <script src="../app/services/jobListService.js"></script>
+    <script src="../app/controllers/jobListCtrl.js"></script>
+    <script src="../app/controllers/jobListWithServiceCtrl.js"></script>
+
+    <!--Spec-->
+    <script src="controllers/jobListControllerSpec.js"></script>
+    <script src="controllers/jobListControlleWithServiceSpec.js"></script>
+    <script src="controllers/jobListCtrlSpec.js"></script>
+    <script src="controllers/jobListCtrlWithServiceSpec.js"></script>
+    <script src="services/jobListServiceSpec.js"></script>
+    <script src="jasmineBootstrap.js"></script>
+</body>
+
+</html>
